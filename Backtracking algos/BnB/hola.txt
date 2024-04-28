@@ -18,7 +18,9 @@ Done! :)
 Now finding the Time complexity, let's go people :) ;)
 
 **Pay attention : IF YOU DUNNO HOW I GOT IT then refer to FUSS.txt, Okie!
-CONFUSION is a normal part of your brain and this is what we call organic learning. Bruh, I m interested in learning the pychology of the human brain, so don't make fun of pyschiatrists, therapists and, self aware people. 
+CONFUSION is a normal part of your brain and this is what we call organic learning. 
+Bruh, I m interested in learning the pychology of the human brain, so don't make fun of pyschiatrists, 
+therapists and, self aware people. 
 
 Lowest ---> Omega oh
 Middle ---> (Omega Oh + Big Oh)/2
