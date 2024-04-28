@@ -3,11 +3,11 @@ Case_2 = Bounding Functions (To put breaks on redundant stuff/ thingy)
 
 It can be divided into Implicit (Not so clear) and Explicit (Clear) constraints:
 
-1) Explicit (To understand the bigger picture)
+Case_1 : 1) Explicit (To understand the bigger picture)
 x_i >= 0; // 0 <= x_i <= Infinity 
 x_i == 1; or x_i==0 // 0 = absense and 1 = presence
 x_i < 0; // NOT FOUND !
 
-2) Implicit
+Case_2 : 2) Implicit
 Now lets's condense it! :)
 
