@@ -21,6 +21,8 @@ Now finding the Time complexity, let's go people :) ;)
 CONFUSION is a normal part of your brain and this is what we call organic learning. 
 Bruh, I m interested in learning the pychology of the human brain, so don't make fun of pyschiatrists, 
 therapists and, self aware people. 
+/*------------------------------------------------------------------------------------------------------*/
+//THIS IS BASIC LAYOUT
 
 Lowest ---> Omega oh
 Middle ---> (Omega Oh + Big Oh)/2
@@ -29,3 +31,4 @@ Highest ---> Big Oh
 Max = > O((n+n)*m) = O(2nm) = O(nm)
 Min = > Θ((n+n)*m) = Θ(2mn) = Θ((nm))
 Avg = > Avg ((2nm+2mn)/2) = Avg(nm)
+/*------------------------------------------------------------------------------------------------------*/
