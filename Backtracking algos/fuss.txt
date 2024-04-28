@@ -12,6 +12,7 @@ Case_2 : |-------------|
          |  * |---|    |
          |    |---|    |
          |-------------|
+TASK : COMBINE Case_1 + Case_2 and SEE WHAT YOU GET! COZ BRAIN LOVES CURIOSITY :)!
 
 With this visual aid ------>
 
