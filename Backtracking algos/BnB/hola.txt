@@ -1,2 +1,4 @@
 Case_1 = Brute force / Naive (which will make your brain rot)
 Case_2 = Bounding Functions (To put breaks on redundant stuff/ thingy)
+
+It can be divided into Implicit (Not so clear) and Explicit (Clear) constraints:
