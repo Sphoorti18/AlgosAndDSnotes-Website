@@ -1,1 +1,31 @@
-...
+P={p1, p2, p3....p_n}
+W={w1, w2, w3....w_n}
+S_i={x1, x2, x3, ..., x_m} | 1<=i<=m possible solution till n~=infinity!
+
+How to find Time Complexity?
+
+Case_1 : |------|   |------|       |------|
+         |      | + |      | = 2 * |      |
+         |------|   |------|       |------|
+
+Case_2 : |-------------|
+         |  * |---|    |
+         |    |---|    |
+         |-------------|
+
+With this visual aid ------>
+
+Lowest ---> Omega oh
+Middle ---> (Omega Oh + Big Oh)/2
+Highest ---> Big Oh
+
+Max = > O((n+n)*m) = O(2nm) = O(nm)
+Min = > Θ((n+n)*m) = Θ(2mn) = Θ((nm))
+Avg = > Avg ((2nm+2mn)/2) = Avg(nm)
+
+How do I make it faster/efficient?
+
+There's where BnB comes into picture!
+
+
+
