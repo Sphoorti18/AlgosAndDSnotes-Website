@@ -14,3 +14,6 @@ Now lets's condense it! :)
 (- Infinity) <= x_i <= (+ Infinity)
 x_i == 1; or x_i==0 // 0 = absense and 1 = presence
 Done! :)
+
+Now finding the Time complexity, let's go people :) ;)
+
