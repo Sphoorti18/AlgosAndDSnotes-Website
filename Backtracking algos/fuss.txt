@@ -3,6 +3,7 @@
 **KEY Terms (DONT'T MISS IT ;)
 | = such that
 (IF YOU DUNNO know mathematical lingo then refer to Pual's online notes on GOOGLE)!
+CLICK HERE : https://tutorial.math.lamar.edu/
 /*-------------------------------------------------------------*/
 
 P={p0, p1, p2, p3....p_n}
