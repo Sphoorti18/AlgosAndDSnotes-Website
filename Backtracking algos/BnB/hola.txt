@@ -10,4 +10,3 @@ x_i < 0; // NOT FOUND !
 
 Case_2 : Implicit
 Now lets's condense it! :)
-
