@@ -1,1 +1,2 @@
-
+Case_1 = Brute force / Naive (which will make your brain rot)
+Case_2 = Bounding Functions (To put breaks on redundant stuff/ thingy)
