@@ -1,3 +1,10 @@
+
+/*-------------------------------------------------------------*/
+**KEY Terms (DONT'T MISS IT ;)
+| = such that
+(IF YOU DUNNO know mathematical lingo then refer to Pual's online notes on GOOGLE)!
+/*-------------------------------------------------------------*/
+
 P={p0, p1, p2, p3....p_n}
 W={w0, w1, w2, w3....w_n} | 0 <= n , m ~= (+infinity)
 S_i={x1, x2, x3, ..., x_m} | 0 <= i <= m !
