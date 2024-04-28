@@ -26,6 +26,9 @@ Avg = > Avg ((2nm+2mn)/2) = Avg(nm)
 How do I make it faster/efficient?
 
 There's where BnB comes into picture!
+/*-----------------------------------------------------------------*/
+BASIC CODE Layout
+Algo search(){
 
-
-
+}
+/*-----------------------------------------------------------------*/
