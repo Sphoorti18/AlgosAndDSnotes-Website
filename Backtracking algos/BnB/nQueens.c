@@ -17,7 +17,7 @@ for(i=0;i<n;i++){
     scanf("%d %d",&p[i][j], &w[i][j]);
   }
 }
-  printf("Enter each profits and weights, Here : \n");
+
   for(i=0;i<m;i++){
   for(j=0;j<m;j++){
     scanf("%d",x[i][j]);
