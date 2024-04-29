@@ -58,10 +58,16 @@ write(Enter weights : ); read(w[i][j]);
 
 //Total = O(1+n+n^2) = O(n^2);
 
+//OuterForLoop ==> O(m);
 for(i=0;i<m;i++){
 for(j=0;j<m;j++){
+//InnerForLoop ==> O(m);
+
 write(x[i][j]); //console
-}
+}//O(m^2)
+
+Conquer = O(n^2+m^2) = O((nm)^2); DONE! :) :) ;) 
+
 }
 
 
