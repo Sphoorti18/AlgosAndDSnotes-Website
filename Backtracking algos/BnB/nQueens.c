@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #define MAX 100
+//NOT defining MACROS coz it will lead to unexpected behavior by the computer
 int p[MAX][MAX], w[MAX][MAX], s[MAX][MAX], x[MAX][MAX];
 int main(){
 
