@@ -37,8 +37,30 @@ How do I make it faster/efficient?
 There's where BnB comes into picture!
 /*-----------------------------------------------------------------*/
 BASIC CODE Layout
+
 Algo search(){
-write(Enter the max/min capacity) = m;
-write(Enter the # of profits and weights) = n;
+
+write(Enter the max/min capacity) = m; ====> O(1)
+
+write(Enter the # of profits and weights) = n; ====> O(1)
+
+//Declare i,j as local vars' in main //program ;)
+
+//outer forLoop has O(n)
+
+for(i=0;i<n;i++){
+//inner forLoop has O(n)
+for(j=0;j<n;j++){
+write(Enter profits : ); read(p[i]);
+write(Enter weights : ); read(w[i]);
+}
+}//O(n*n)=O(n^2);
+
+
+
+
+
+
+
 }
 /*-----------------------------------------------------------------*/
