@@ -1,1 +1,49 @@
+Case_1 = Brute force / Naive (which will make your brain rot)
+Case_2 = Bounding Functions (To put breaks on redundant stuff/ thingy)
 
+It can be divided into Implicit (Not so clear) and Explicit (Clear) constraints:
+
+Case_1 : Explicit (To understand the bigger picture)
+PIECEWISE FUNCTION
+x_i >= 0; // 0 <= x_i <= Infinity 
+x_i == 1; or x_i == 0; // 0 = absense and 1 = presence
+x_i < 0; // NOT FOUND !
+0 <= x_i <= S_i <= (+ Infinity) 
+
+Case_2 : Implicit
+Now lets's condense it! :)
+(- Infinity) <= x_i <= (+ Infinity)
+0 <= x_i <= 1;
+0 <= x_i <= 1 <= S_i <= (+ Infinity);
+Total == O(n^2+m^2)+O(i) == O(n^2+m^2+i) == O((nm)^2+i) == O(i) == O(n); //PHEW, lotta work bruh!
+
+Done! :)
+
+Now finding the Time complexity, let's go people :) ;)
+
+**Pay attention : IF YOU DUNNO HOW I GOT IT then refer to FUSS.txt, Okie!
+CONFUSION is a normal part of your brain and this is what we call organic learning. 
+Bruh, I m interested in learning the pychology of the human brain, so don't make fun of pyschiatrists, 
+therapists and, self aware people. 
+/*------------------------------------------------------------------------------------------------------*/
+//THIS IS BASIC LAYOUT
+**PAY ATTENTION = (REFER to FUSS.txt) !
+Lowest ---> Omega oh
+Middle ---> (Omega Oh + Big Oh)/2
+Highest ---> Big Oh
+
+Max = > O((n+n)*m) = O(2nm) = O(nm)
+Min = > Θ((n+n)*m) = Θ(2mn) = Θ((nm))
+Avg = > Avg ((2nm+2mn)/2) = Avg(nm)
+
+Conquer = O(n^2+m^2) = O((nm)^2); DONE! :) :) ;) 
+
+//Bounding Function!
+
+Let's take O((nm)^2)
+
+x_i == 1 ===> O(1)
+x_i == 0 ===> O(1)
+
+Total = O((nm)^2) + O(2) == O((nm)^2); ENJOY! ;) ;)
+/*------------------------------------------------------------------------------------------------------*/
