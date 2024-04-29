@@ -13,7 +13,10 @@ x_i <= S_i <= (+ Infinity)
 Case_2 : Implicit
 Now lets's condense it! :)
 (- Infinity) <= x_i <= (+ Infinity)
-x_i == 1; or x_i==0 // 0 = absense and 1 = presence
+0 <= x_i <= 1;
+0 <= x_i <= 1 <= S_i <= (+ Infinity);
+Total == O(n^2+m^2)+O(i) == O(n^2+m^2+i) == O((nm)^2+i) == O(i) == O(n); //PHEW, lotta work bruh!
+
 Done! :)
 
 Now finding the Time complexity, let's go people :) ;)
