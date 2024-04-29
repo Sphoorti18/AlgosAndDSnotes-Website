@@ -23,7 +23,7 @@ Bruh, I m interested in learning the pychology of the human brain, so don't make
 therapists and, self aware people. 
 /*------------------------------------------------------------------------------------------------------*/
 //THIS IS BASIC LAYOUT
-
+**PAY ATTENTION = (REFER to FUSS.txt) !
 Lowest ---> Omega oh
 Middle ---> (Omega Oh + Big Oh)/2
 Highest ---> Big Oh
@@ -31,4 +31,7 @@ Highest ---> Big Oh
 Max = > O((n+n)*m) = O(2nm) = O(nm)
 Min = > Θ((n+n)*m) = Θ(2mn) = Θ((nm))
 Avg = > Avg ((2nm+2mn)/2) = Avg(nm)
+
+Conquer = O(n^2+m^2) = O((nm)^2); DONE! :) :) ;) 
 /*------------------------------------------------------------------------------------------------------*/
+
