@@ -1,5 +1,6 @@
 //TIME COMPLEXITY ---> O(2^n);
 #include <stdio.h>
+#include <stdlib.h>
 #define sin(x) scanf("%d",&x)
 #define new printf("\n")
 #define MAX 50
