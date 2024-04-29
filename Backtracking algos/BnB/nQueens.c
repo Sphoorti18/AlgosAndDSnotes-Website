@@ -1,3 +1,4 @@
+//TIME COMPLEXITY ====> O(n)
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
