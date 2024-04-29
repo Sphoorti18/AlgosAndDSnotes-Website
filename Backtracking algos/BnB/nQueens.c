@@ -20,7 +20,7 @@ for(i=0;i<n;i++){
   printf("Enter each profits and weights, Here : \n");
   for(i=0;i<m;i++){
   for(j=0;j<m;j++){
-    scanf("%d %d",&p[i][j], &w[i][j]);
+    scanf("%d",x[i][j]);
   }
 }         
   return 0;
