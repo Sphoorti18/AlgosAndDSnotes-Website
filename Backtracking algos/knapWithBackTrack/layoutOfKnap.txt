@@ -1,1 +1,6 @@
-...
+Algo Knap(){
+//SPACE COMPLEXITY is a LONG FORM of TIME COMPLEXITY :/;)
+int n, m, w[100][100], p[100][100]; //Global variables ==> O(4) ~= O(1)
+**BOUNDING FUNCTION 
+
+}
