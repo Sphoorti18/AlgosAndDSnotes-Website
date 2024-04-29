@@ -2,7 +2,7 @@
 /*-------------------------------------------------------------*/
 **KEY Terms (DONT'T MISS IT ;)
 | = such that
-(IF YOU DUNNO know mathematical lingo then refer to Pual's online notes on GOOGLE)!
+(IF YOU DUNNO mathematical lingo then refer to Pual's online notes on GOOGLE)!
 CLICK HERE : https://tutorial.math.lamar.edu/
 /*-------------------------------------------------------------*/
 
@@ -38,6 +38,7 @@ There's where BnB comes into picture!
 /*-----------------------------------------------------------------*/
 BASIC CODE Layout
 Algo search(){
-
+write(Enter the max/min capacity) = m;
+write(Enter the # of profits and weights) = n;
 }
 /*-----------------------------------------------------------------*/
