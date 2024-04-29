@@ -40,7 +40,7 @@ BASIC CODE Layout
 
 Algo search(){
 
-//Declare p[100], w[100], & x[100] as //global arrays
+//Declare p[100][100], w[100][100], & x[100][100] as //global arrays
 write(Enter the max/min capacity) = m; ====> O(1)
 
 write(Enter the # of profits and weights) = n; ====> O(1)
@@ -51,8 +51,8 @@ write(Enter the # of profits and weights) = n; ====> O(1)
 for(i=0;i<n;i++){
 //inner forLoop has O(n)
 for(j=0;j<n;j++){
-write(Enter profits : ); read(p[i]);
-write(Enter weights : ); read(w[i]);
+write(Enter profits : ); read(p[i][j]);
+write(Enter weights : ); read(w[i][j]);
 }
 }//O(n*n)=O(n^2);
 
@@ -60,14 +60,9 @@ write(Enter weights : ); read(w[i]);
 
 for(i=0;i<m;i++){
 for(j=0;j<m;j++){
-
+write(x[i][j]); //console
 }
 }
-
-
-
-
-
 
 
 
