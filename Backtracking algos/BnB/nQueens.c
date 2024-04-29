@@ -6,8 +6,9 @@
 int n,m; // n = # of profits + weights, m = Max capacity 
 //NOT defining MACROS coz it will lead to unexpected behavior by the computer
 int p[MAX][MAX], w[MAX][MAX], s[MAX][MAX], x[MAX][MAX]; //Refer to hola.txt
-int main(){
+int main(){ int n,m,i,j;
 printf("Enter the # of profits and weights : "); scanf("%d", &n);
 printf("Enter the Max capacity : "); scanf("%d", &m);
+
   return 0;
 }
