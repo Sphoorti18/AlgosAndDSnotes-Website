@@ -1,1 +1,62 @@
+//START SUCKS! BUT wait for the whole MOVIE GUYS, YOU WILL ENJOY IT :;)/| <3 <3
+#include <stdio.h>
+#include <stdlib.h>
+#include <cstring.h>
+#include <cmath.h>
+Algo Knap(){
+//SPACE COMPLEXITY is a LONG FORM of TIME COMPLEXITY 
+//Can't put emojis', // ;/|
+#define MAX 100
+#define new printf("\n")
+#define tab printf("\t")
+#define out(x) printf("%d",&x)
+#define in(x) printf("%d",&x)
+#define outChar(x) printf("%s",x)
+int n, m, w[100][100], p[100][100]; //Global variables ==> O(4) ~= O(1)
+**BOUNDING FUNCTION 
+int i,j; //Local to BOUNDING ==> O(1)
+0 <= S_i == S_j <= (+ Infinity); ==> 0 <= S_i <= (+ Infinity); ==>
+//Therefore, S[MAX][MAX]; ==> O(i) == O(j) == O(n) ;
+outChar(Enter the profits and weights for each item (n) : ); new; ==> O(2) ==> O(1)
 
+// OuterForLoop ==> O(n); 
+for(i=0;i<=n;i++){ // InnerForLoop ==> O(n);
+for(j=0;j<=n;j++){
+ in(p[i][j]); in(w[i][j]); 
+}
+} //O(n)*O(n) ==> O(n^2)
+
+// OutChar ==> O(1); 
+outChar(Enter the profits and weights for each item (n) : ); new;
+// OuterForLoop ==> O(m); 
+for(i=0;i<=m;i++){
+for(j=0;j<=m;j++){ // InnerForLoop ==> O(m);
+ in(S[i][j]); ==> O(1) 
+}
+} //O(m)*O(m) ==> O(m^2)
+}
+//TOTAL == O(n^2)*O(m^2) == O((nm)^2) == O(n^2);
+//Therefore, nQueens is more faster than BNapSack Algo ==> O(n) <= O(n^2);
+}//END OF PROGRAM!
+
+//HOW DO I MAKE IT WAY MORE FASTER?
+//JOB SEQUENCING, WILL DO THE TRICK? 
+//int k;
+// OutChar ==> O(1); 
+outChar(Enter the profits and weights for each item (n) : ); new;
+
+
+//OuterForLoop ==> O(m); 
+for(i=0;i<=m;i++){
+// InnerForLoop i ==> O(m); 
+for(j=0;i<=n;i++){
+for(k=0;j<=n;j++){ // InnerForLoop j ==> O(m);
+ in(S[i][j]); ==> O(1) 
+}
+} //O(m)*O(n)*O(n) ==> O(m*n*n);
+// ==> 3x3 MATRIX
+//BUT, IT DNE IN REAL LIFE, therefore O(m*n^2) ==> O(n^3) ==> O(m^3);
+
+}
+}
+}
