@@ -1,7 +1,17 @@
 Algo Knap(){
 //SPACE COMPLEXITY is a LONG FORM of TIME COMPLEXITY :/;)
+#define MAX 100
+#define new printf("\n")
+#define tab printf("\t")
+#define out(x) printf("%d",&x)
+#define in(x) printf("%d",&x)
 int n, m, w[100][100], p[100][100]; //Global variables ==> O(4) ~= O(1)
 **BOUNDING FUNCTION 
 int i,j; //Local to BOUNDING ==> O(1)
+0 <= S_i == S_j <= (+ Infinity); ==> 0 <= S_i <= (+ Infinity); ==>
+//Therefore, S[MAX][MAX];
+for(i=0;i<=n;i++){
+for(j=0;j<=n;j++){
 
+}
 }
