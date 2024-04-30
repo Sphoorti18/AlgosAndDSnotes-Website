@@ -1,1 +1,7 @@
-
+//CONDENSING SUMOFSUBSETS (HAMILTONIAN CYCLE)
+Algo Ham(){
+//int i=0;
+//(+ Infinity ) <= s[i] == 1 
+// n*(n-1)*(n-2)...1; ==> n!
+// Time Complexity O(n!);
+} //ONE MORE PART is remaining, SO STAY TILL THE END! (mCOLORING)
