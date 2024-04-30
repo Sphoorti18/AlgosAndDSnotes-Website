@@ -9,10 +9,3 @@
 //CONSIDERING NQUEENS ALGORITHM
 
 //MAX 100 => GLOBAL VAR
-int n, i; int s[MAX]; O(3) == O(1);
-Algo mColor(){
-//O(n) ==>
-for(i=0;i<=n;i++){
-S[i]; // ==> O(1)
-} //O(n+1) == O(n)
-} //END :) GO TO NEXT PART TO SEE THE END OF THE BACKTRACKING MOVIE in (HAMILTONIAN / HAMIL.txt)!
