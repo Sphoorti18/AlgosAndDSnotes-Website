@@ -20,6 +20,20 @@ CASE_3 :  (1) == (2) ==> write((1)) or write((2)) ==> write((1)) == write((2)) ;
 CASE_1 : (1) <= (2) <= (+ INFINITY)? write((1)) : write((2));
 CASE_2 : (1) == (2) ==> write((1)) == write((2)) ;
 
+//OuterForLoop (ROWS) ==> O(n)
+for(i=0;i<n;i++){ //InnerForLoop (COLS) ==> O(m)
+for(j=0;j<m;j++){
+read(two[i][j]);
+//DIVIDE AND CONQUER
+**SWITCH CASE {
+CASE_1 : (1) <= (2) <= (+ INFINITY)? write((1)) : write((2)); ==> TERNARY OPERATOR
+CASE_2 : (1) == (2) ==> write((1)) == write((2)) ; ==> SIMPLE IF STATEMENT
+DEFUALT : write("Wrong Choice!");
+}//EOF SWITCH
+
+}
+}
+
 }//END OF PROGRAM (EOF)
 /*---------------------------------------------------------------------------------*/
 
