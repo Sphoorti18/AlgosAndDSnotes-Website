@@ -1,1 +1,9 @@
+ALSO KNOWN AS aLLPAIRSsHORTEST PATH1 :) (GONNA TRICK YOU IN EXAM)!
 
+/*-------------------------------------------*/
+Algo floydWarsh(){
+
+}//END OF PROGRAM
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
