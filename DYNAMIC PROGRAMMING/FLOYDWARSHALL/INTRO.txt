@@ -13,10 +13,15 @@ read(mat[i][i]);
 }
 }//O(n*m);
 
-LETS' take 0 <= k <= (+ INFINITY) ==> O(1)
+//LETS' take 0 <= k <= (+ INFINITY) ==> O(1)
 
-
-
+//FORMULA! (HOLD ON TO YOUR SEATS TIGHT, THE PLANE IS GONNA TAKEOFF ) :|
+//distance(i) ---> distance(j) ==>> (1)
+//distance(i) ---> distance(k) ---> distance(j) ==>> (2)
+//COMBINE And COMPARE ==> 
+CASE_1 :  (1) <= (2) ==> write((1));
+CASE_2 :  (1) >= (2) ==> write((2));
+CASE_3 :  (1) == (2) ==> write((1)) or write((2)) ==> write((1)) == write((2)) ;
 }//END OF PROGRAM
 /*-------------------------------------------*/
 
