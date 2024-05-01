@@ -7,6 +7,7 @@ int mat[n][m]; ==> O(1)
 
 //LETS' take 0 <= k <= (+ INFINITY) ==> O(1)
 
+/*---------------------------------------------------------------------------------*/
 //FORMULA! (HOLD ON TO YOUR SEATS TIGHT, THE PLANE IS GONNA TAKEOFF ) :|
 //distance(i) ---> distance(j) ==>> (1)
 //distance(i) ---> distance(k) ---> distance(j) ==>> (2)
@@ -14,6 +15,7 @@ int mat[n][m]; ==> O(1)
 CASE_1 :  (1) <= (2) ==> write((1));
 CASE_2 :  (1) >= (2) ==> write((2));
 CASE_3 :  (1) == (2) ==> write((1)) or write((2)) ==> write((1)) == write((2)) ;
+/*---------------------------------------------------------------------------------*/
 
 CASE_1 : (1) <= (2) <= (+ INFINITY)? write((1)) : write((2));
 CASE_2 : (1) == (2) ==> write((1)) == write((2)) ;
