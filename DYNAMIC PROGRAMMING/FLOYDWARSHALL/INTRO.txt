@@ -1,7 +1,21 @@
 ALSO KNOWN AS aLLPAIRSsHORTEST PATH1 :) (GONNA TRICK YOU IN EXAM)!
-
+TIME COMPLEXITY is a short version of SPACE COMPLEXITY 
 /*-------------------------------------------*/
 Algo floydWarsh(){
+int n , m, i; //GLOBAL VARS' (ROWS & COLS) ==> O(3) ==> O(1) : 0 <= n, m, i <= (+ INFINITY)
+
+int mat[n][m]; ==> O(1)
+
+//OuterForLoop == > O(n), ROWS
+for(i=0;i<n;i++){
+for(i=0;i<m;i++){ //InnerForLoop == > O(m), COLS
+read(mat[i][i]);
+}
+}//O(n*m);
+
+LETS' take 0 <= k <= (+ INFINITY) ==> O(1)
+
+
 
 }//END OF PROGRAM
 /*-------------------------------------------*/
