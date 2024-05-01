@@ -1,1 +1,9 @@
-RECURIVE METHOD 2 : ALSO KNOWN as ROD CUTTING IN BOTTOM-UP STYLE (CLRS) :);)\| 
+RECURIVE METHOD 2 : ALSO KNOWN as ROD CUTTING IN BOTTOM-UP STYLE (CLRS/KOURMEN) :);)\| 
+
+/*---------------------------------------------------------------------------------*/
+Algo bGraph(){
+
+}//END OF PROGRAM
+/*---------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------*/
