@@ -22,6 +22,23 @@ read(mat[i][i]);
 CASE_1 :  (1) <= (2) ==> write((1));
 CASE_2 :  (1) >= (2) ==> write((2));
 CASE_3 :  (1) == (2) ==> write((1)) or write((2)) ==> write((1)) == write((2)) ;
+
+//two[100][100], tree[100][100][100] 
+//OuterForLoop == > O(n), ROWS
+for(i=0;i<=n;i++){ 
+//InnerForLoop == > O(m), COLUMNS
+for(j=0;j<=m;j++){
+read(two[i][j]);
+//InnerForLoop == > O(p), HEIGHTS
+for(k=0;k<=p;k++){
+read(tree[i][j][k]);
+//COMPARE two[i][j] & tree[i][j][k] by USING THE ABOVE 3 CASES;
+//IMPLEMENTING IT USING  CONDITIONAL STATEMENTS
+}
+}
+}//3x3 matrix
+
+
 }//END OF PROGRAM
 /*-------------------------------------------*/
 
