@@ -1,6 +1,6 @@
 RECURSIVE METHOD 1 : ALSO KNOWN as ROD CUTTING IN TOP DOWN STYLE! (CLRS) :);)/|
  /*--------------------------------------------------------------------------------*/
-//int n,m,i,j;
+//int n,m,i,j; //V_i or V_j ==> 0 <= i,j <= (+ INFINITY); //x[i][j] ==>  0 <= i,j <= (+ INFINITY);
 Algo fGraph(){
 
 }//END OF PROGRAM
