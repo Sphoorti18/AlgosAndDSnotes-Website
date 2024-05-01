@@ -2,6 +2,9 @@ TIME COMPLEXITY is a short version of SPACE COMPLEXITY
 CONDENSING FLOYDWARSHALL
 /*---------------------------------------------------------------------------------*/
 Algo BELLMAN(){
+int n , m, i; //GLOBAL VARS' (ROWS & COLS) ==> O(3) ==> O(1) : 0 <= n, m, i <= (+ INFINITY)
+int mat[n][m]; ==> O(1)
+
 //LETS' take 0 <= k <= (+ INFINITY) ==> O(1)
 
 //FORMULA! (HOLD ON TO YOUR SEATS TIGHT, THE PLANE IS GONNA TAKEOFF ) :|
