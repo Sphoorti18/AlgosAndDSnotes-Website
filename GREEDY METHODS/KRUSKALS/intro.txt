@@ -1,9 +1,29 @@
 //**CONDENSING PRIMS to get O(n!) ==> O(n* (n-1)* (n-2)* ... 1) 
 // ==> O(log_e(n)) ==> O(ln(n)) // ==> O(n* ln(n-1)); ~= O(n* ln(t)) ;
+// 0 <= i, n <= (+ INFINITY)
+expo[100][100][100], expo1[][][100] ... expo2[][][100] 
 
 /******************************************************************************/
 Algo KRUSKALS{
 
+//OUTER-FOR-LOOP ==> O(n)
+for(i=0; i<n; i++){
+read(expo[i][i][i]) ==> O(1);
+SWITCH{
+CASE_1:
+    write(""); ==> O(1)
+    BREAK;
 
-}//EOF PROGRAM
+CASE_2:
+    write(" "); ==> O(1)
+    BREAK;
+
+DEFUALT :
+    write("WRONG CHOICE!"); ==> O(1)
+    BREAK;
+
+}//EOF SWITCH ==> O(n)
+} EOF 1st FOR LOOP 
+
+}//EOF PROGRAM ~= O(n* ln(t)) ;
 /******************************************************************************/
