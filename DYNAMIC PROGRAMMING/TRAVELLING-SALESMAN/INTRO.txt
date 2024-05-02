@@ -3,6 +3,40 @@
 /*****************************************************************/
 Algo travelSales(){
 
+//OuterForLoop ==> O(n)
+for(i=0;i<n;i++){
+//InnerForLoop ==> O(n)
+for(i=0;i<n;i++){
+
+read(two[100][100]); // ==> READING FROM CONSOLE ==> O(1)
+
+//SWITCH-1 ==> O(1)
+SWITCH-1{ //O(1)
+CASE_1{
+SWITCH-2{
+   CASE_1:
+      write("two1[i][i]"); //PRINTING TO CONSOLE ==> O(1)
+   BREAK;
+   
+   CASE_2{
+   write("two2[i][i]"); //PRINTING TO CONSOLE ==> O(1)
+   BREAK;
+   }
+}//EOF SWITCH-2
+}
+
+DEFUALT{
+    write("WRONG CHOICE!"); //PRINTING TO CONSOLE ==> O(1)
+BREAK;
+}
+}//EOF SWITCH-1
+
+}//EOF 2nd FOR LOOP 
+
+}//EOF 1st FOR LOOP 
+
+TOTAL == O((4)) == O(2^2) == O(2^N) | 0 <= N <= (+ INFINITY) ;
+
 
 }//EOF travelSales ==> O(2^x)
 /*****************************************************************/
