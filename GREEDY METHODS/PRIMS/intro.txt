@@ -2,7 +2,18 @@
 
 /***********************************************************/
 Algo PRIMS(){
+int i, j, k ... n; | 0 <= i, j, k, ... n <= (+ INFINITY); ==> O(6) ==> O(1)
 
+//OuterForLoop ==> O(n)
+for(i=0;i<=n;i++){
+//InnerForLoop ==> O(n)
+for(j=0;j<=n;j++){
+//OuterForLoop ==> O(n)
+for(i=0;i<=n;i++){
+read(tree[i][j][k]);
+}//EOF 3rd FORLOOP
+}//EOF 2nd FORLOOP
+}//EOF 1st FORLOOP
 
 }EOF PRIMS ==> O(n!) 
 /***********************************************************/
