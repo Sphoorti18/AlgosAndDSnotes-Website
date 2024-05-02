@@ -3,7 +3,8 @@
 /********************************************************************************/
 //int n,m,i; //# of VERTICES == > V_i ==> 0 <= i <= (+ INFINITY); //x[i][i] , WITHIN V[i][i] 
 int two[100][100], two1[100][100], two2[100][100]; 
-Algo DP(){
+
+Algo KNAP(){
 
 //OuterForLoop ==> O(n)
 for(i=0;i<n;i++){
