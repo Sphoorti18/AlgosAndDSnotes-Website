@@ -1,4 +1,4 @@
-//CONDENSING BINARY SEARCH IN RECURSIVE STYLE 
+//CONDENSING LINEAR SEARCH IN RECURSIVE STYLE 
 
 /****************************************************************************************/
 Algo binary(){
