@@ -17,19 +17,19 @@ SWITCH {
 CASE_1 :
       //TERNARY OPERATOR IN C
       if (two1[i][j] <= two2[i][j] ) {write(two1[i][j]) }
-      BREAK;
+      BREAK; ==> O(2) ==> O(1)
 
 CASE_2 :
       //TERNARY OPERATOR IN C
       if (two1[i][j] >= two2[i][j] ) {write(two2[i][j]) }
-      BREAK;
+      BREAK; ==> O(2) ==> O(1)
 
 DEFUALT :
-      write("WRONG CHOICE!");
+      write("WRONG CHOICE!"); ==> O(1)
 
-}//EOF SWITCH
+}//EOF SWITCH  ==> O(3) ==> O(1)
 
 Total == O(n*n) == O(n^2);
 
-}//EOF PROGRAM
+}//EOF PROGRAM ==> O(n+1) ==> O(n) ; :):)!
  /****************************************************************************************/
