@@ -1,9 +1,19 @@
 //CONDENSING ==>  O(log_e(e)) ~= O(ln(e)) ~= O(t) ~= O(n); (FORWARD)
 
 /********************************************************************************/
-//int n,m,i,j; //# of VERTICES == > V_i or V_j ==> 0 <= i,j <= (+ INFINITY); //x[i][j] , WITHIN V[i][j] ==>  0 <= i,j <= (+ INFINITY);
+//int n,m,i; //# of VERTICES == > V_i ==> 0 <= i <= (+ INFINITY); //x[i][i] , WITHIN V[i][i] 
+int two[100][100], two1[100][100], two2[100][100]; 
 Algo DP(){
 
+//OuterForLoop ==> O(n)
+for(i=0;i<n;i++){
+//InnerForLoop ==> O(n)
+for(i=0;i<n;i++){
+read(two[100][100]);
+
+}//EOF 2nd FOR LOOP
+
+}//EOF 1st FOR LOOP
 
 
 }//EOF DP
