@@ -6,13 +6,30 @@ int i, j, k ... n; | 0 <= i, j, k, ... n <= (+ INFINITY); ==> O(6) ==> O(1)
 
 //OuterForLoop ==> O(n)
 for(i=0;i<=n;i++){
+
 //InnerForLoop ==> O(n)
 for(j=0;j<=n;j++){
-//OuterForLoop ==> O(n)
+
+//InnerForLoop ==> O(n)
 for(i=0;i<=n;i++){
+
 read(tree[i][j][k]);
+SWITCH{
+CASE_1:
+    BREAK;
+
+CASE_2:
+    BREAK;
+
+DEFUALT:
+    write("WRONG CHOICE!");
+    BREAK;
+}//EOF SWITCH
+
 }//EOF 3rd FORLOOP
+
 }//EOF 2nd FORLOOP
+
 }//EOF 1st FORLOOP
 
 }EOF PRIMS ==> O(n!) 
