@@ -1,1 +1,5 @@
+//CONDENSING BINARY SEARCH IN RECURSIVE STYLE
+Algo binary(){
+int n,i; ==> # of elements in an array two[100][100] ==> 0 <= n, i <= (+ Infinity)
 
+}//EOF OF PROGRAM
