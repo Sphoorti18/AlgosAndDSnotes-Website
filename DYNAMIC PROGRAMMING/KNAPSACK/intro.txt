@@ -1,6 +1,7 @@
 //CONDENSING ==>  O(log_e(e)) ~= O(ln(e)) ~= O(t) ~= O(n); (FORWARD)
 
 /********************************************************************************/
+//int n,m,i,j; //# of VERTICES == > V_i or V_j ==> 0 <= i,j <= (+ INFINITY); //x[i][j] , WITHIN V[i][j] ==>  0 <= i,j <= (+ INFINITY);
 Algo DP(){
 
 
