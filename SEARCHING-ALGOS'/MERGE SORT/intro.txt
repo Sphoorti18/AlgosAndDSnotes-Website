@@ -4,20 +4,32 @@
 Algo merge(){
 int n,i; ==> # of elements in an array two[100][100] ==> 0 <= n, i <= (+ Infinity)
 
+//two[][100];
+
 //OuterForloop ==> O(n) ==> (ROWS) 
 for(i=0; i<=n ;i++){
 //InnerForloop ==> O(n) ==> (COLS) 
 for(j=0; j<=n ;j++){
+read(two[i][j])
 
-//TERNARY OPERATOR IN C
-if (two1[i][j] <= two2[i][j]) ? read(two1[i][j]) : read((two2[i][j])) ; Reading 2x2 matrix! 
- }//EOF 1st for loop ==> O(n);
+SWITCH {
 
-//TERNARY OPERATOR IN C
-if (two1[i][j] <= two2[i][j]) ? write(two1[i][j]) : write((two2[i][j])) ; Printing 2x2 matrix! 
- }//EOF 2nd for loop ==> O(n);
+CASE_1 :
+      //TERNARY OPERATOR IN C
+      if (two1[i][j] <= two2[i][j] ) {write(two1[i][j]) }
+      BREAK;
+
+CASE_2 :
+      //TERNARY OPERATOR IN C
+      if (two1[i][j] >= two2[i][j] ) {write(two2[i][j]) }
+      BREAK;
+
+DEFUALT :
+      write("WRONG CHOICE!");
+
+}//EOF SWITCH
 
 Total == O(n*n) == O(n^2);
 
-}//EOF OF PROGRAM
+}//EOF PROGRAM
  /****************************************************************************************/
