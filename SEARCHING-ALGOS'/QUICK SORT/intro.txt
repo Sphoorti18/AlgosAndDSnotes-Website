@@ -12,17 +12,22 @@ for(i=0; i<=n ;i++){
 for(j=0; j<=n ;j++){
 read(one[i][j]);
 
-SWITCH {
+SWITCH-1 {
 
-CASE_1 :
+   CASE_1 :
+       SWITCH-2{
+      CASE_1{
       //TERNARY OPERATOR IN C
       if (two1[i][j] <= two2[i][j] ) {write(two1[i][j]) }
       BREAK; ==> O(2) ==> O(1)
+      }// EOF CASE_1
 
-CASE_2 :
-      //TERNARY OPERATOR IN C
-      if (two1[i][j] >= two2[i][j] ) {write(two2[i][j]) }
-      BREAK; ==> O(2) ==> O(1)
+   CASE_2 :
+       //TERNARY OPERATOR IN C
+       if (two1[i][j] >= two2[i][j] ) {write(two2[i][j]) }
+       BREAK; ==> O(2) ==> O(1)
+
+      }//EOF SWITCH-2
 
 DEFUALT :
       write("WRONG CHOICE!"); ==> O(1)
