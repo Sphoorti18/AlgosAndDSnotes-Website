@@ -1,4 +1,6 @@
 //CONDENSING BINARY SEARCH IN RECURSIVE STYLE 
+
+/****************************************************************************************/
 Algo binary(){
 int n,i; ==> # of elements in an array two[100][100] ==> 0 <= n, i <= (+ Infinity)
 
@@ -6,6 +8,16 @@ int n,i; ==> # of elements in an array two[100][100] ==> 0 <= n, i <= (+ Infinit
 for(i=0; i<=n ;i++){
 //InnerForloop ==> O(n) ==> (COLS) 
 for(j=0; j<=n ;j++){
-read(two[i][j]); // 2x2 matrix
- }//EOF 1st for loop
+
+//TERNARY OPERATOR IN C
+if (two1[i][j] <= two2[i][j]) ? read(two1[i][j]) : read((two2[i][j])) ; Reading 2x2 matrix! 
+ }//EOF 1st for loop ==> O(n);
+
+//TERNARY OPERATOR IN C
+if (two1[i][j] <= two2[i][j]) ? write(two1[i][j]) : write((two2[i][j])) ; Printing 2x2 matrix! 
+ }//EOF 2nd for loop ==> O(n);
+
+Total == O(n*n) == O(n^2);
+
 }//EOF OF PROGRAM
+ /****************************************************************************************/
