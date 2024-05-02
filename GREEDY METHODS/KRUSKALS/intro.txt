@@ -11,11 +11,11 @@ for(i=0; i<n; i++){
 read(expo[i][i][i]) ==> O(1);
 SWITCH{
 CASE_1:
-    write(""); ==> O(1)
+    write("expo1[i][i][i]\n"); ==> O(1)
     BREAK;
 
 CASE_2:
-    write(" "); ==> O(1)
+    write("expo2[i][i][i]\n"); ==> O(1)
     BREAK;
 
 DEFUALT :
@@ -25,5 +25,5 @@ DEFUALT :
 }//EOF SWITCH ==> O(n)
 } EOF 1st FOR LOOP 
 
-}//EOF PROGRAM ~= O(n* ln(t)) ;
+}//EOF PROGRAM ==> O((n+3)!) ==> O(n!) ==> O(n* ln_e(e)) ~= O(n* ln(t)) ;
 /******************************************************************************/
