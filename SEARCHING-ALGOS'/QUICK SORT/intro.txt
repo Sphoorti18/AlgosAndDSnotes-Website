@@ -10,7 +10,7 @@ int n,i; ==> # of elements in an array one[100][100] ==> 0 <= n, i <= (+ Infinit
 for(i=0; i<=n ;i++){
 //InnerForloop ==> O(n) ==> (COLS) 
 for(j=0; j<=n ;j++){
-read(one[i][j]);
+read(one[i][j]); ==> O(1)
 
 SWITCH-1 {
 
@@ -34,7 +34,7 @@ DEFUALT :
 
 }//EOF SWITCH  ==> O(3) ==> O(1)
 
-Total == O(n*n) == O(n^2);
+Total == O(n*n+3) == O(n^2+1); ==> O(1);
 
-}EOF PROGRAM
+}EOF PROGRAM ==> O(1);
 /************************************************************/
