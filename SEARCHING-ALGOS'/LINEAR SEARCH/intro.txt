@@ -1,1 +1,29 @@
+Algo linear(){
+int n, i, j; ==> (# of elements in an array), 0 <= n, i, j <= (+ INFINITY) ==> O(n)
 
+//two[][100] ==> 2x2 matrix of size 100
+//OuterForloop ==> O(n) ==> (ROWS) 
+for(i=0; i<=n ;i++){
+//InnerForloop ==> O(n) ==> (COLS) 
+for(j=0; j<=n ;j++){
+read(two[i][i]); // 2x2 matrix
+ }
+ }// EOF 1st for loop
+
+//Lets' take k ==> GLOBAL VAR
+//tree[100][100][100] ==> 3x3 matrix of size 100
+//OuterForloop ==> O(n) ==> (ROWS) 
+for(i=0; i<=n ;i++){
+//InnerForloop ==> O(n) ==> (COLS) 
+for(j=0; j<=n ;j++){
+//InnerForloop ==> O(n) ==> (HIGHS) 
+for(k=0; k<=n; k++){
+read(tree[i][j][k]); // 3x3 matrix
+}
+ }//EOF 2nd for loop
+
+TOTAL TIME COMPLEXITY == O(n*n*n) == O(n^3);
+
+ }// EOF 1st for loop
+ 
+}// EOF OF THE PROGRAM
