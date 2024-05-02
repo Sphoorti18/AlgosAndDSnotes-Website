@@ -10,7 +10,7 @@ int n,i; ==> # of elements in an array two[100][100] ==> 0 <= n, i <= (+ Infinit
 for(i=0; i<=n ;i++){
 //InnerForloop ==> O(n) ==> (COLS) 
 for(j=0; j<=n ;j++){
-read(two[i][j]);
+read(two[i][j]); ==> O(1)
 
 SWITCH {
 
