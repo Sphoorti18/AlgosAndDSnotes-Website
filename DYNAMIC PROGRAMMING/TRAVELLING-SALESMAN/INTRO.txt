@@ -11,9 +11,8 @@ for(i=0;i<n;i++){
 read(two[100][100]); // ==> READING FROM CONSOLE ==> O(1)
 
 //SWITCH-1 ==> O(1)
-SWITCH-1{ //O(1)
-CASE_1{
-SWITCH-2{
+
+SWITCH-1{
    CASE_1:
       write("two1[i][i]"); //PRINTING TO CONSOLE ==> O(1)
    BREAK;
@@ -22,21 +21,21 @@ SWITCH-2{
    write("two2[i][i]"); //PRINTING TO CONSOLE ==> O(1)
    BREAK;
    }
-}//EOF SWITCH-2
-}
 
-DEFUALT{
+   DEFUALT{
     write("WRONG CHOICE!"); //PRINTING TO CONSOLE ==> O(1)
-BREAK;
-}
+    BREAK;
+
 }//EOF SWITCH-1
 
 }//EOF 2nd FOR LOOP 
 
 }//EOF 1st FOR LOOP 
 
-TOTAL == O((4)) == O(2^2) == O(2^N) | 0 <= N <= (+ INFINITY) ;
+//TOTAL == O((4)) == O(2^2) == O(2^N) | 0 <= N <= (+ INFINITY) ; ==> O(2^e) | e ~= (+ INFINITY) 
+// ==> O(2^2 * 2^e) | O(2^(e+2)) ~= O(2^(+ INFINITY)) 
+}//EOF ==> O(2^2 * 2^N);
 
 
-}//EOF travelSales ==> O(2^x)
+}//EOF travelSales ==> O(2^e)
 /*****************************************************************/
