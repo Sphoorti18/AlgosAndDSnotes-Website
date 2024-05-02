@@ -3,6 +3,7 @@
 /***********************************************************/
 Algo PRIMS(){
 int i, j, k ... n; | 0 <= i, j, k, ... n <= (+ INFINITY); ==> O(6) ==> O(1)
+tree[100][100][100] | tree1[100][100][100] &  tree2[100][100][100] 
 
 //OuterForLoop ==> O(n)
 for(i=0;i<=n;i++){
@@ -16,9 +17,11 @@ for(i=0;i<=n;i++){
 read(tree[i][j][k]);
 SWITCH{
 CASE_1:
+    write((tree1[i][j][k])); //Print tree1 to the console
     BREAK;
 
 CASE_2:
+    write((tree2[i][j][k])); //Print tree2 to the console
     BREAK;
 
 DEFUALT:
@@ -26,11 +29,13 @@ DEFUALT:
     BREAK;
 }//EOF SWITCH
 
-}//EOF 3rd FORLOOP
+}//EOF 3rd FORLOOP 
 
 }//EOF 2nd FORLOOP
 
 }//EOF 1st FORLOOP
+ 
+Total ==> O(i, j, k, ...n) ==> {O(i)* O(i-1)* O(i-2) ... O(1)} ==> O(i!) ==> O(j!) ==> O(k!) ==> {O(n!)}
 
-}EOF PRIMS ==> O(n!) 
+}EOF PRIMS ==> O(n!) // DONE :);)\|
 /***********************************************************/
