@@ -9,12 +9,29 @@ Algo DP(){
 for(i=0;i<n;i++){
 //InnerForLoop ==> O(n)
 for(i=0;i<n;i++){
-read(two[100][100]);
 
-}//EOF 2nd FOR LOOP
+read(two[100][100]); ==> READING FROM CONSOLE ==> O(1)
 
-}//EOF 1st FOR LOOP
+SWITCH{
+CASE_1{
+   write("two1[i][i]"); //PRINTING TO CONSOLE ==> O(1)
+BREAK;
+}
+CASE_2{
+   write("two2[i][i]"); //PRINTING TO CONSOLE ==> O(1)
+BREAK;
+}
+DEFUALT{
+    write("WRONG CHOICE!"); //PRINTING TO CONSOLE ==> O(1)
+BREAK;
+}
+}//EOF SWITCH
 
+}//EOF 2nd FOR LOOP 
 
-}//EOF DP
+}//EOF 1st FOR LOOP 
+
+TOTAL == O(n*n*(4)) == O(n^2) == O(n*(n-1)...1) == O(n!) == O(n* ln(e)) == O(n*t) == O(n)
+
+}//EOF DP ==> O(n);
 /********************************************************************************/
