@@ -1,5 +1,5 @@
 /********************************************************************************/
-MATHEMATICAL LINGO (PAUL'S ONLINE NOTES) ==> https://tutorial.math.lamar.edu/
+MATHEMATICAL LINGO (PAUL'S ONLINE NOTES)  ==> https://tutorial.math.lamar.edu/ OR GOOGLE IT :|
 GLOSARY BEFORE YOU READ THIS! (THEORY OF COMPUTATION/FLAT)
 1) M ==> M/C ==> MACHINE ==> Deterministic FINITE AUTOMATON (DFA)
 2) L ==> Language accepted by M/C && M/C being accepted by L
@@ -16,8 +16,11 @@ USE YOUR NORMAL SET RULES AND OPERATIONS TO PROVE IT :)
 Lemma2 : HAMILTONIAN CYClE is in NP
 Proof2 : 
 
-Lemma3 :
-Proof3 :
+Lemma3 : L accepted by Polynomial time iff L cannot be accepted in Polynomial time
+Proof3 : USING PROOF BY CONTRADICTION
+
+Lemma4 :
+Proof4 :
 /********************************************************************************/
 BASIC LAYOUT :
 
