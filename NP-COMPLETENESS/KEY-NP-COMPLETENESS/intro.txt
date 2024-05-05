@@ -9,7 +9,11 @@ Lemma : {L_1 ---via poly---> L_2} ==> {L_2 ---via poly---> L_3} then {L_1 ---via
 Proof : IT CAN BE PROVED BY TRANSITIVE PROPERTY
 
 Lemma1 : CIR SAT.d is in NP or CIR SATD. IS ( PROPER SUBSET && = ) OF NP
-Proof1 : 
+Proof1 : LET NP BE A UNIVERSAL SET && CIR SATD. TO BE A part OF UNIVERsaL (CIR SAtD. ==> SET A)
+USE YOUR NORMAL SET RULES AND OPERATIONS TO PROVE IT :)
+
+Lemma2 :
+Proof2 :
 /********************************************************************************/
 BASIC LAYOUT :
 
