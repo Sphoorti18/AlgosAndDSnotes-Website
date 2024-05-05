@@ -25,7 +25,7 @@ A.K.A == K-CNF (YOU'LL GET THE GIST LATER ON)
 
 /*---------------------------------------------------------------------------*/
 
-P VS NP COMPLETENESS
+P VS NP COMPLETENESS (POLYNOMIALS VS UNKNOWN NP)
 
 
 /*---------------------------------------------------------------------------*/
