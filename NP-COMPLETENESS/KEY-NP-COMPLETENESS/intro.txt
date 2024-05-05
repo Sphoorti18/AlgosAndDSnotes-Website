@@ -1,3 +1,7 @@
+/********************************************************************************/
+GLOSARY BEFORE YOU READ THIS! (THEORY OF COMPUTATION/FLAT)
+1) 
+/********************************************************************************/
 Lemma : {L_1 ---via poly---> L_2} ==> {L_2 ---via poly---> L_3} then {L_1 ---via poly---> L_3}
 Proof : IT CAN BE PROVED BY TRANSITIVE PROPERTY
 /********************************************************************************/
@@ -15,7 +19,8 @@ simplify KNWOWN NP-COMPLETE.
 2) LOCAL REPLACEMENT == AFTER 1) USE SUBSTITUTION FOR DIVIDING NP-COMPLETE ==> L && M as 
 infinite number of sets
 
-3) COMPONENT DESIGN == 
+3) COMPONENT DESIGN == STRICTLY REDUCES KNOWN NP_COMPLETE to M to L Via CHOICES and 
+strict prioritization (evaluation funct^n)
 //----------------------------------------------------------------
 }//EOF KEY_NP
 /********************************************************************************/
