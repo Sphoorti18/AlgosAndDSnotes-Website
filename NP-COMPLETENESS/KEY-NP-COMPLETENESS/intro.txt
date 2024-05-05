@@ -44,6 +44,7 @@ CIRCUIT   ||        3           |
 //-----------------------------------------------------
 **AFTER VERTEX COVER
 LOCAL REPOSITORY (GIT/GIT-BASH) |==> CLIQUE
+                                |
                                 |==> SET-COVER
 //-------------------------------------------------------
 CONQUER BOTH OF THEM 
