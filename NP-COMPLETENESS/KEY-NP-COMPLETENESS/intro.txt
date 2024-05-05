@@ -1,7 +1,7 @@
 /********************************************************************************/
 GLOSARY BEFORE YOU READ THIS! (THEORY OF COMPUTATION/FLAT)
 1) M ==> M/C ==> MACHINE ==> Deterministic FINITE AUTOMATON (DFA)
-2) L ==> Language accepted by M/C
+2) L ==> Language accepted by M/C && M/C being accepted by L 
 /********************************************************************************/
 Lemma : {L_1 ---via poly---> L_2} ==> {L_2 ---via poly---> L_3} then {L_1 ---via poly---> L_3}
 Proof : IT CAN BE PROVED BY TRANSITIVE PROPERTY
