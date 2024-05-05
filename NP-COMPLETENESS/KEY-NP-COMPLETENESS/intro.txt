@@ -4,7 +4,14 @@ Proof : IT CAN BE PROVED BY TRANSITIVE PROPERTY
 BASIC LAYOUT :
 
 ALGO KEY_NP(){
-
-
+1) L within NP
+2) REDUCE TO KNOWN NP-COMPLETE PROBLEM ==> L in POLYNOMIAL
+3) SHOWING L is NP-HARD
+//----------------------------------------------------------------
+**REDUCTIONS : **
+1) RESTRICTION
+2) LOCAL REPLACEMENT
+3) COMPONENT DESIGN
+//----------------------------------------------------------------
 }//EOF KE_NP
 /********************************************************************************/
