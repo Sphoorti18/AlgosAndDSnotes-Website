@@ -12,8 +12,11 @@ Lemma1 : CIR SAT.d is in NP or CIR SATD. IS ( PROPER SUBSET && = ) OF NP
 Proof1 : LET NP BE A UNIVERSAL SET && CIR SATD. TO BE A part OF UNIVERsaL (CIR SAtD. ==> SET A)
 USE YOUR NORMAL SET RULES AND OPERATIONS TO PROVE IT :)
 
-Lemma2 :
-Proof2 :
+Lemma2 : HAMILTONIAN CYClE is in NP
+Proof2 : 
+
+Lemma3 :
+Proof3 :
 /********************************************************************************/
 BASIC LAYOUT :
 
