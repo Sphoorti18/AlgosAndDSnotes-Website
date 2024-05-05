@@ -16,7 +16,7 @@ SHORT PATH TRAVERSES THROUGHOUT THE GRID (2x2 matrix)
 **EULER TOUR VS HAMILTONIAN CYCLE
 HAMILTONIAN CYCLE HAS O(n!) <= EULER TOUR HAS O(n * log_e(e)) ==> O(n * ln(e)) ==> O(n * n) 
 ==> O(n^2)
-EULER TOUR HAS O(n^2) ==> O(n*(n-1)*...1) ==> { O(n*N) : 0 <= N <= (+ INFINITY) } ==> O(n^N) 
+EULER TOUR HAS O(n^2) ==> O(n*(n-1)*...1) ==> { O(n*N) : 0 <= N <= (+ INFINITY) } ==> O(n^N) ==> \Omega(n^N)
 
 //--------------------------------------------------------------------------------------------
 
