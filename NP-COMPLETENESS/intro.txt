@@ -27,6 +27,7 @@ A.K.A == K-CNF (YOU'LL GET THE GIST LATER ON)
 
 P VS NP COMPLETENESS (POLYNOMIALS VS UNKNOWN NP)
 
+NP IS USED TO PROVE THAT P IS TRUE OR NOT! (BIG PICTURE)
 
 /*---------------------------------------------------------------------------*/
 BASIC LAYOUT
