@@ -34,8 +34,13 @@ strict prioritization (evaluation funct^n)
    |---------------|            |
 CIRCUIT   ||        3           |
           ||        ||          |
-          ||   VERTEX-DESIGN <= |
-      CNF / SOP 
-
+          ||   VERTEX-COVER  <= |
+      CNF / SOP     ||
+               COMPILER DES.
+                    ||
+         |-----------------------|
+    SUM-OF-SUBSETS      HAMILTONIAN CYClE
+         ||----------------------||
+    KAPSACK-0/1          TRAVELLING-SALES-PERSON (TSP)
 
 LOCAL REPOSITORY (GIT/GIT-BASH) ==> 
