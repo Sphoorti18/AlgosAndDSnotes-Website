@@ -41,3 +41,8 @@ REDUCTIONS == PROVING GIVEN ALGO IS NEITHER EASY NOR DIFFICULT
 
 }//EOF NP
 /*---------------------------------------------------------------------------*/
+PROOF METHODS
+CASE_1 == MATHEMATICAL INDUCTION
+CASE_2 == PROOF BY CONTRADICTION
+/******************************************************************************/
+THE END ;);)
