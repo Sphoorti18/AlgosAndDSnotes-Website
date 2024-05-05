@@ -1,3 +1,5 @@
+Lemma : {L_1 ---via poly---> L_2} ==> {L_2 ---via poly---> L_3} then {L_1 ---via poly---> L_3}
+Proof : IT CAN BE PROVED BY TRANSITIVE PROPERTY
 /********************************************************************************/
 BASIC LAYOUT :
 
