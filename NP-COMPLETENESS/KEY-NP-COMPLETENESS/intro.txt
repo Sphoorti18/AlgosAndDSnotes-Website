@@ -26,5 +26,16 @@ strict prioritization (evaluation funct^n)
 }//EOF KEY_NP
 /********************************************************************************/
 
-COMPILER DESIGN ==>
+   COMPILER DESIGN -------------|
+          ||                    |
+      SATURATION                |
+          ||                    |
+      LOCAL REPO                |
+   |---------------|            |
+CIRCUIT   ||        3           |
+          ||        ||          |
+          ||   VERTEX-DESIGN <= |
+      CNF / SOP 
+
+
 LOCAL REPOSITORY (GIT/GIT-BASH) ==> 
