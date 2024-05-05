@@ -40,7 +40,7 @@ CIRCUIT   ||        3           |
                     ||
          |-----------------------|
     SUM-OF-SUBSETS      HAMILTONIAN CYClE
-         ||----------------------||
+         ||-------RESTRICTION-------||
     KAPSACK-0/1          TRAVELLING-SALES-PERSON (TSP)
 
 LOCAL REPOSITORY (GIT/GIT-BASH) ==> 
