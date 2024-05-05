@@ -29,6 +29,8 @@ P VS NP COMPLETENESS (POLYNOMIALS VS UNKNOWN NP)
 
 NP IS USED TO PROVE THAT P IS TRUE OR NOT! (BIG PICTURE)
 
+NP-completeness ==> Avg(n * ln(e)) ==> Avg(n * ln(t)) ==> Avg(n * ln(n));
+
 /*---------------------------------------------------------------------------*/
 BASIC LAYOUT
 Algo NP(){
