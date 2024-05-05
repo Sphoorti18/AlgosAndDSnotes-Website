@@ -29,9 +29,8 @@ strict prioritization (evaluation funct^n)
    COMPILER DESIGN -------------|
           ||                    |
       SATURATION                |
-          ||                    |
-      LOCAL REPO                |
-   |---------------|            |
+          ||                    |               
+   |---LOCAL REPO---|           |
 CIRCUIT   ||        3           |
           ||        ||          |
           ||   VERTEX-COVER  <= |
@@ -42,5 +41,8 @@ CIRCUIT   ||        3           |
     SUM-OF-SUBSETS      HAMILTONIAN CYClE
          ||-------RESTRICTION-------||
     KAPSACK-0/1          TRAVELLING-SALES-PERSON (TSP)
-
-LOCAL REPOSITORY (GIT/GIT-BASH) ==> 
+//-----------------------------------------------------
+**AFTER VERTEX COVER
+LOCAL REPOSITORY (GIT/GIT-BASH) |==> CLIQUE
+                                |==> SET-COVER
+//-------------------------------------------------------
