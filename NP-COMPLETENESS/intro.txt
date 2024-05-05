@@ -35,5 +35,8 @@ NP-completeness ==> Avg(n * ln(e)) ==> Avg(n * ln(t)) ==> Avg(n * ln(n));
 BASIC LAYOUT
 Algo NP(){
 //3 KEY CONCEPTS i.e : (DESCISIONS VS OPTIMIZATIONS) VS REDUCTIONS
+OPTIMIZATIONS == MAX && MIN PROBLEMS
+DESCISIONS == CHOOSE ONE THING AT A TIME
+
 }//EOF NP
 /*---------------------------------------------------------------------------*/
