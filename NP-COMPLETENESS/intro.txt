@@ -2,9 +2,14 @@ ALSO KNOWN AS POLYNOMIAL-TIME-ALGORITHM !
 
 P != NP ==> NP IS STILL NOT KNOWN TO THIS VERY DAY! :\
 
+-----------------------------------------------------------------------------------------
 **SHORT VS LONG PATH
 UN-DIGRAPH (0 DIRECTIONS + MAGNITUDE) AND DIGRAPH ( ( (+) && (-) ) + MAGNITUDE) 
 LONG PATH == UN-DIGRAPH AND SHORT PATH == DIGRAP (UNINTUITIVE ISN'T IT)
+LONG PATH HAS DOTS OR POINTS ALL OVER TILL + INFINITY && - INFINITY
+SHORT PATH TRAVERSES THROUGHOUT THE GRID (2x2 matrix)
+--------------------------------------------------------------------------------------------
+
 **EULER TOUR VS HAMILTONIAN CYCLE
 HAMILTONIAN CYCLE HAS O(n!) <= EULER TOUR HAS O(n * log_e(e)) ==> O(n * ln(e)) ==> O(n * n) 
 ==> O(n^2)
