@@ -8,10 +8,14 @@ ALGO KEY_NP(){
 2) REDUCE TO KNOWN NP-COMPLETE PROBLEM ==> L in POLYNOMIAL
 3) SHOWING L is NP-HARD
 //----------------------------------------------------------------
-**REDUCTIONS : **
-1) RESTRICTION
-2) LOCAL REPLACEMENT
-3) COMPONENT DESIGN
+** REDUCTIONS : for eqt^n 2) **
+1) RESTRICTION == CHOOSE NP-COMPLETE i.e CLOSELY RELATED to L in Polynomial, 
+simplify KNWOWN NP-COMPLETE.
+
+2) LOCAL REPLACEMENT == AFTER 1) USE SUBSTITUTION FOR DIVIDING NP-COMPLETE ==> L && M as 
+infinite number of sets
+
+3) COMPONENT DESIGN == 
 //----------------------------------------------------------------
 }//EOF KEY_NP
 /********************************************************************************/
