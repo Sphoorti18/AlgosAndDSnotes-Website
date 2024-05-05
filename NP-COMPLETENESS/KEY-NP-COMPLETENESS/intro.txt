@@ -1,4 +1,5 @@
 /********************************************************************************/
+MATHEMATICAL LINGO (PAUL'S ONLINE NOTES) ==> https://tutorial.math.lamar.edu/
 GLOSARY BEFORE YOU READ THIS! (THEORY OF COMPUTATION/FLAT)
 1) M ==> M/C ==> MACHINE ==> Deterministic FINITE AUTOMATON (DFA)
 2) L ==> Language accepted by M/C && M/C being accepted by L
