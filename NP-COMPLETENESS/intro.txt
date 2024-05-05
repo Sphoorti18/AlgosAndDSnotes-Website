@@ -6,7 +6,8 @@ P != NP ==> NP IS STILL NOT KNOWN TO THIS VERY DAY! :\
 UN-DIGRAPH (0 DIRECTIONS + MAGNITUDE) AND DIGRAPH ( ( (+) && (-) ) + MAGNITUDE) 
 
 **EULER TOUR VS HAMILTONIAN CYCLE
-HAMILTONIAN CYCLE HAS O() <= EULER TOUR HAS O()
+HAMILTONIAN CYCLE HAS O(n!) <= EULER TOUR HAS O(n * log_e(e)) ==> O(n * ln(e)) ==> O(n * n) 
+==> O(n^2)
 
 **2-CNF AND 3-CNF (CONJUNCTIVE NORMAL FORM ==> POS) 
 /*---------------------------------------------------------------------------*/
