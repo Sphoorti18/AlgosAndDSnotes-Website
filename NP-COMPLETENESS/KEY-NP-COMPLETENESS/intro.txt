@@ -1,10 +1,15 @@
 /********************************************************************************/
 GLOSARY BEFORE YOU READ THIS! (THEORY OF COMPUTATION/FLAT)
 1) M ==> M/C ==> MACHINE ==> Deterministic FINITE AUTOMATON (DFA)
-2) L ==> Language accepted by M/C && M/C being accepted by L 
+2) L ==> Language accepted by M/C && M/C being accepted by L
+3) CIRCUIT SATURATION ( CIR SAT.d) A.K.A COOK-LEVIN THEOREM
+4) 
 /********************************************************************************/
 Lemma : {L_1 ---via poly---> L_2} ==> {L_2 ---via poly---> L_3} then {L_1 ---via poly---> L_3}
 Proof : IT CAN BE PROVED BY TRANSITIVE PROPERTY
+
+Lemma1 : CIR SAT.d is in NP or CIR SATD. IS ( PROPER SUBSET && = ) OF NP
+Proof1 : 
 /********************************************************************************/
 BASIC LAYOUT :
 
