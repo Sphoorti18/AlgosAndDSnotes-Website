@@ -41,7 +41,7 @@ ALGO KEY_NP(){
 1) L within NP
 2) REDUCE TO KNOWN NP-COMPLETE PROBLEM ==> L in POLYNOMIAL
 3) SHOWING L is NP-HARD
-//----------------------------------------------------------------
+//-----------------------------------------------------------------------------------------------------------
 ** REDUCTIONS : for eqt^n 2) **
 1) RESTRICTION == CHOOSE NP-COMPLETE i.e CLOSELY RELATED to L in Polynomial, 
 simplify KNWOWN NP-COMPLETE.
@@ -51,9 +51,9 @@ infinite number of sets
 
 3) COMPONENT DESIGN == STRICTLY REDUCES KNOWN NP_COMPLETE to M to L Via CHOICES and 
 strict prioritization (evaluation funct^n)
-//----------------------------------------------------------------
+//-------------------------------------------------------------------------------------------------------------
 }//EOF KEY_NP
-/********************************************************************************/
+/**********************************************************************************************************/
 
    COMPILER DESIGN -------------|
           ||                    |
