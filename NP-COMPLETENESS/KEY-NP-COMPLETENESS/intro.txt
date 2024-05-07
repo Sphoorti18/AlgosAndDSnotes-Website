@@ -1,11 +1,15 @@
 /********************************************************************************/
 MATHEMATICAL LINGO (PAUL'S ONLINE NOTES)  ==> https://tutorial.math.lamar.edu/ OR GOOGLE IT :|
 GLOSARY BEFORE YOU READ THIS! (THEORY OF COMPUTATION/FLAT)
+
 1) M ==> M/C ==> MACHINE ==> Deterministic FINITE AUTOMATON (DFA)
 2) L ==> Language accepted by M/C && M/C being accepted by L
 3) CIRCUIT SATURATION ( CIR SAT.d) A.K.A COOK-LEVIN THEOREM
-4) CNF/POS (+) ==> Product of sums / Conjunctive Normal Form
-5) DNF/SOP (-/inverted) ==> Sum Of Products / Disjunctive Normal Form
+
+**PRERESQUITES
+1) CNF/POS (+) ==> Product of sums / Conjunctive Normal Form
+2) DNF/SOP (-/inverted) ==> Sum Of Products / Disjunctive Normal Form
+3) BOOLEAN ALGEBRA LAWS
 /************************************************************************************************/
 Lemma1 : {L_1 ---via poly---> L_2} ==> {L_2 ---via poly---> L_3} then {L_1 ---via poly---> L_3}
 Proof1 : IT CAN BE PROVED BY TRANSITIVE PROPERTY
@@ -56,7 +60,8 @@ a) Lemma4 : CNF-SATD. IS IN NP (POS-SATD) or (+)-SATD.
             NP ~= (x_n + x_{n+1})
             P is in NP, Hence Proved!
 b) Lemma4 : 3SAT IS IN NP
-   Proof4 :
+   Proof4 : LET CNF-SATD. ==> (x1+x2)*(x3+x4)*...(x_n + x_{n+1})
+            
 c) Lemma4 : CIR SAT.d is in NP or CIR SATD. IS ( PROPER SUBSET && = ) TO NP
    Proof4 : LET NP BE A UNIVERSAL SET && CIR SATD. TO BE A part OF UNIVERsaL (CIR SAtD. ==> SET A)
             USE YOUR NORMAL SET RULES AND OPERATIONS TO PROVE IT :)
