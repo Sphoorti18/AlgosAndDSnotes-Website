@@ -19,5 +19,6 @@ c(S) <= δ * OPT
 PTAS (POLYNOMIAL TIME APPROXIMATION SCHEME)
 Here, δ = 1 + t, 0 <= n, t <= INFINITY
 We focus on worst case scenario : O(n) depends on t 
+FULLY PTAS ==> δ ~= t ~= n ==> δ ~= n
 /****************************************************************************/
 //THE END ;);)
