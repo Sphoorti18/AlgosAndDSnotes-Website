@@ -36,5 +36,9 @@ FULLY PTAS --> |-----> KNAPSACK
                |-----> BACKTRACKING and BnB
 
 **FULLY PTAS ANALYSIS OF KNAPSACK 
+
+**FULLY PTAS ANALYSIS OF TSP
+
+**FULLY PTAS ANALYSIS OF BACKTRACKING and BnB
 /****************************************************************************/
 //THE END ;);)
