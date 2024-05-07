@@ -6,8 +6,8 @@ GLOSARY BEFORE YOU READ THIS! (THEORY OF COMPUTATION/FLAT)
 3) CIRCUIT SATURATION ( CIR SAT.d) A.K.A COOK-LEVIN THEOREM
 
 /************************************************************************************************/
-Lemma : {L_1 ---via poly---> L_2} ==> {L_2 ---via poly---> L_3} then {L_1 ---via poly---> L_3}
-Proof : IT CAN BE PROVED BY TRANSITIVE PROPERTY
+Lemma1 : {L_1 ---via poly---> L_2} ==> {L_2 ---via poly---> L_3} then {L_1 ---via poly---> L_3}
+Proof1 : IT CAN BE PROVED BY TRANSITIVE PROPERTY
 
 /************************************************************************************************/
 //**NP-COMPLETE THEOREMS
