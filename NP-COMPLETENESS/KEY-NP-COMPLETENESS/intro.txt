@@ -63,8 +63,16 @@ a) Lemma4 : CNF-SATD. IS IN NP (POS-SATD) or (+)-SATD.
             NP ~= (x_n + x_{n+1})
             P is in NP, Hence Proved!
 b) Lemma4 : 3SAT IS IN NP
-   Proof4 : LET CNF-SATD. ==> (x1+x2)*(x3+x4)*...(x_n + x_{n+1})
-            ((x1+x2)')' * ((x3+x4)')'...((x_{n} + x_{n+1})')'
+   Proof4 : LET CNF-SATD. ==> (x1+x2)*(x3+x4)*...(x_n + x_{n+1}) ==>
+            [((x1+x2)')'] * [((x3+x4)')'] * [((x5+x6)')'] * [((x7+x8)')'] ...((x_n + x_{n+1})')' 
+            ==> P = [((x1+x2)')] ; Q = [((x3+x4)')] ; R = [((x5+x6)')] ; S = [((x7+x8)')]
+            T = ((x_n + x_{n+1})')
+            T_{1} = ((x_{n+2} + x_{n+3})')
+            [(P') * (Q')] * [(R') * (S')] ... [(T')* (T_{1})']
+            USING DEMORGAN's LAW
+            (P+Q)' * (R+S)' ... (T + T_{1})' => POS Form
+            
+             
             
 c) Lemma4 : CIR SAT.d is in NP or CIR SATD. IS ( PROPER SUBSET && = ) TO NP
    Proof4 : LET NP BE A UNIVERSAL SET && CIR SATD. TO BE A part OF UNIVERsaL (CIR SAtD. ==> SET A)
