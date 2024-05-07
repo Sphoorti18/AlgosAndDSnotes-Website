@@ -7,12 +7,12 @@ GLOSSARY
 1/10000000 or 10000000 == > 0.000001 or 10000000 ==> which one is bigger, People? Guessed it right!
 OPT DEPENDS ON MAX and MIN values
 5) RESCALABLE ==> x' == λ*x ==> 0 <= λ <= (+ INFINITY)
-6) DP ---> KNAPSACK ==> O()
-      ---> TSP ==> O()
-7) BACKTRACKING ---> KNAPSACK ==> O()
-                ---> TSP ==> O()
-8) BnB  ---> KNAPSACK ==> O()
-        ---> TSP ==> O()
+6) DP ---> KNAPSACK ==> O((m*n)^2)
+      ---> TSP ==> O( (mn)^4 * (mn)^(-1) ) ==> O((mn)^3) ==> O(n^3)
+7) BACKTRACKING ---> KNAPSACK ==> O((m*n)^2) ==> O(n^2)
+                ---> TSP ==> O(n)
+8) BnB  ---> KNAPSACK ==> O(n!)
+        ---> TSP ==> O(n*t) ==> O(n^2)
 9) BACKTRACKING ==> O(n * n-1 * n-2 * .... 1) ==> O(n!)
 10) BnB ==> O(n * t) ==> O(n * n) ==> n^2
 /****************************************************************************/
