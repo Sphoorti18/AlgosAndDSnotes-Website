@@ -1,12 +1,12 @@
 GLOSSARY
-R = Real Numbers
-OPT = OPTIMIZATION |-----> MAX
+1) R = Real Numbers
+2) OPT = OPTIMIZATION |-----> MAX
                    |-----> MIN
-S ε F
-δ <= max{ c(S)/OPT , OPT/c(S)}, but why?
+3) S ε F
+4) δ <= max{ c(S)/OPT , OPT/c(S)}, but why?
 1/10000000 or 10000000 == > 0.000001 or 10000000 ==> which one is bigger, People? Guessed it right!
 OPT DEPENDS ON MAX and MIN values
-
+5) RESCALABLE ==> x' == λ*x ==> 0 <= λ <= (+ INFINITY)
 /****************************************************************************/
 A.K.A P == APPROXIMATION OF NP
 
