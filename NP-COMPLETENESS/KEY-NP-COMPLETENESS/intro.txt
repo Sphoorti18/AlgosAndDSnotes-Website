@@ -22,7 +22,10 @@ Proof1 : IT CAN BE PROVED BY TRANSITIVE PROPERTY
 3) *Cover
 a) Lemma3 : VERTEX is in NP
    Proof3 : VertexCover = { Graph(Nodes, Edges) : 0 <= Nodes, Edges <= (+ Infinity) }
-            ==> G(N,E) : 0 <= k <= N
+            ==> G(N,E) : 0 <= k <= N ~= NP
+            P ~= 0 <= k <= 1
+           COMPARING P and NP
+           Therefore, VertexCover is in NP
 b) Lemma3 : SET is in NP
    Proof3 : SetCover = { : }
 
