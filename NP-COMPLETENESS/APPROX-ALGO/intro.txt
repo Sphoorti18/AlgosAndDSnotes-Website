@@ -28,7 +28,7 @@ PTAS (POLYNOMIAL TIME APPROXIMATION SCHEME) ==> MAX OBT
 Here, δ = 1 + t, 0 <= n, t <= INFINITY
 We focus on worst case scenario : O(n) depends on t 
 **FULLY PTAS ==> δ ~= t ~= n ==> δ ~= n
-
+/*----------------------------------------------------------------------------------------*/
 **BIG PICTURE        
 FULLY PTAS --> |-----> KNAPSACK  
                |-----> COVER -->> |---->> VERTEX
@@ -37,17 +37,17 @@ FULLY PTAS --> |-----> KNAPSACK
 
 **FULLY PTAS ANALYSIS OF KNAPSACK 
 KNAPSACK ==> O(n!) ==> O(n^2)
-
+/*----------------------------------------------------------------------------------------*/
 **FULLY PTAS ANALYSIS OF TSP
 BACKTRACKING ---> KNAPSACK ==> O((m*n)^2) ==> O(n^2)
              ---> TSP ==> O(n)
 
 BnB  ---> KNAPSACK ==> O(n!)
      ---> TSP ==> O(n*t) ==> O(n^2) ==> O(n^N) : 0 <= N <= (+ INFINITY)
-
+/*----------------------------------------------------------------------------------------*/
 **FULLY PTAS ANALYSIS OF BACKTRACKING and BnB
 They are closely related! 
 BACKTRACKING ==> O(n^N) 
-BnB ==> O(n^N)  ==> {O(1) or O(n)}
+BnB ==> O(n^N)  ==> {O(1) or O(n)} 
 /****************************************************************************/
 //THE END ;);)
