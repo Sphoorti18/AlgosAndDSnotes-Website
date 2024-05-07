@@ -1,7 +1,7 @@
 GLOSSARY
 1) R = Real Numbers
 2) OPT = OPTIMIZATION |-----> MAX
-                   |-----> MIN
+                      |-----> MIN
 3) S ε F
 4) δ <= max{ c(S)/OPT , OPT/c(S)}, but why?
 1/10000000 or 10000000 == > 0.000001 or 10000000 ==> which one is bigger, People? Guessed it right!
