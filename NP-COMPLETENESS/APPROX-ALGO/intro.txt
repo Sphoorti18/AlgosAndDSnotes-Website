@@ -4,6 +4,8 @@ OPT = OPTIMIZATION |-----> MAX
                    |-----> MIN
 S ε F
 δ <= max{ c(S)/OPT , OPT/c(S)}, but why?
+1/10000000 or 10000000 == > 0.000001 or 10000000 ==> which one is bigger, People? Guessed it right!
+OPT DEPENDS ON MAX and MIN values
 
 /****************************************************************************/
 A.K.A P == APPROXIMATION OF NP
