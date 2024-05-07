@@ -11,6 +11,6 @@ A.K.A P == APPROXIMATION OF NP
 **CONSTRUCTION 
 F = { x : x ε R}
 c(S) == OPT == min{ c(T) : T ε F}
-c(s) <= δ * OPT
+c(S) <= δ * OPT
 /****************************************************************************/
 //THE END ;);)
