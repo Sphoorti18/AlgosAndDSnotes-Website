@@ -12,9 +12,9 @@ OPT DEPENDS ON MAX and MIN values
 7) BACKTRACKING ---> KNAPSACK ==> O((m*n)^2) ==> O(n^2)
                 ---> TSP ==> O(n)
 8) BnB  ---> KNAPSACK ==> O(n!)
-        ---> TSP ==> O(n*t) ==> O(n^2)
-9) BACKTRACKING ==> O(n * n-1 * n-2 * .... 1) ==> O(n!)
-10) BnB ==> O(n * t) ==> O(n * n) ==> n^2
+        ---> TSP ==> O(n*t) ==> O(n^2) ==> O(n^N) : 0 <= N <= (+ INFINITY)
+9) BACKTRACKING ==> O(n * n-1 * n-2 * .... 1) ==> O(n^N) : 0 <= N <= 1
+10) BnB ==> O(n * t) ==> O(n * ln(e)) ==> O(n*t) ==> O(n^N) : 0 or 1
 /****************************************************************************/
 A.K.A P == APPROXIMATION OF NP (MIN OBT)
 
@@ -36,7 +36,7 @@ FULLY PTAS --> |-----> KNAPSACK
                |-----> BACKTRACKING and BnB
 
 **FULLY PTAS ANALYSIS OF KNAPSACK 
-
+KNAPSACK ==> O(n!) ==> O()
 **FULLY PTAS ANALYSIS OF TSP
 
 **FULLY PTAS ANALYSIS OF BACKTRACKING and BnB
