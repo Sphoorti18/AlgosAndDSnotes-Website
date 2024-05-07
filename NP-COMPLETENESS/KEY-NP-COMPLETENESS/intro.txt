@@ -4,7 +4,8 @@ GLOSARY BEFORE YOU READ THIS! (THEORY OF COMPUTATION/FLAT)
 1) M ==> M/C ==> MACHINE ==> Deterministic FINITE AUTOMATON (DFA)
 2) L ==> Language accepted by M/C && M/C being accepted by L
 3) CIRCUIT SATURATION ( CIR SAT.d) A.K.A COOK-LEVIN THEOREM
-
+4) CNF/POS (+) ==> Product of sums / Conjunctive Normal Form
+5) DNF/SOP (-/inverted) ==> Sum Of Products / Disjunctive Normal Form
 /************************************************************************************************/
 Lemma1 : {L_1 ---via poly---> L_2} ==> {L_2 ---via poly---> L_3} then {L_1 ---via poly---> L_3}
 Proof1 : IT CAN BE PROVED BY TRANSITIVE PROPERTY
