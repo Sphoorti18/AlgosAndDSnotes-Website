@@ -10,6 +10,9 @@ GLOSARY BEFORE YOU READ THIS! (THEORY OF COMPUTATION/FLAT)
 1) CNF/POS (+) ==> Product of sums / Conjunctive Normal Form
 2) DNF/SOP (-/inverted) ==> Sum Of Products / Disjunctive Normal Form
 3) BOOLEAN ALGEBRA LAWS
+   3.1) Demorgan's Law
+        a) ( x1'+ x2' ) == ( x1 * x2 )' 
+        b) ( x1' * x2') == ( x1 + x2 )'
 /************************************************************************************************/
 Lemma1 : {L_1 ---via poly---> L_2} ==> {L_2 ---via poly---> L_3} then {L_1 ---via poly---> L_3}
 Proof1 : IT CAN BE PROVED BY TRANSITIVE PROPERTY
