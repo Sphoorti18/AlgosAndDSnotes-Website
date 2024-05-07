@@ -21,9 +21,10 @@ Proof : IT CAN BE PROVED BY TRANSITIVE PROPERTY
 
 3) *Cover
 a) Lemma3 : VERTEX is in NP
-   Proof3 :
+   Proof3 : VertexCover = { Graph(Nodes, Edges) : 0 <= Nodes, Edges <= (+ Infinity) }
+            ==> G(N,E) : 0 <= k <= N
 b) Lemma3 : SET is in NP
-   Proof3 :
+   Proof3 : SetCover = { : }
 
 4) *SATURATION
 a) Lemma4 : CNF-SATD. IS IN NP (POS-SATD) or (+)-SATD.
