@@ -7,6 +7,10 @@ GLOSSARY
 1/10000000 or 10000000 == > 0.000001 or 10000000 ==> which one is bigger, People? Guessed it right!
 OPT DEPENDS ON MAX and MIN values
 5) RESCALABLE ==> x' == λ*x ==> 0 <= λ <= (+ INFINITY)
+6) KNAPSACK ==> O()
+7) TSP ==> O()
+8) BACKTRACKING ==> O()
+9) BnB ==> O()
 /****************************************************************************/
 A.K.A P == APPROXIMATION OF NP
 
@@ -19,6 +23,12 @@ c(S) <= δ * OPT
 PTAS (POLYNOMIAL TIME APPROXIMATION SCHEME)
 Here, δ = 1 + t, 0 <= n, t <= INFINITY
 We focus on worst case scenario : O(n) depends on t 
-FULLY PTAS ==> δ ~= t ~= n ==> δ ~= n
+**FULLY PTAS ==> δ ~= t ~= n ==> δ ~= n
+
+**BIG PICTURE        
+FULLY PTAS --> |-----> KNAPSACK  
+               |-----> COVER -->> |---->> VERTEX
+               |-----> TSP        |---->> SET
+               |-----> BACKTRACKING and BnB
 /****************************************************************************/
 //THE END ;);)
