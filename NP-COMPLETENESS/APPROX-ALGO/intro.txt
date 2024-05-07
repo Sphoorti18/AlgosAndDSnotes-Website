@@ -1,13 +1,16 @@
 GLOSSARY
 R = Real Numbers
-OPT = OPTIMIZATION
+OPT = OPTIMIZATION |-----> MAX
+                   |-----> MIN
 S ε F
+δ <= max{ c(S)/OPT , OPT/c(S)}, but why?
+
 /****************************************************************************/
 A.K.A P == APPROXIMATION OF NP
 
 **CONSTRUCTION 
 F = { x : x ε R}
 c(S) == OPT == min{ c(T) : T ε F}
-
+c(s) <= δ * OPT
 /****************************************************************************/
 //THE END ;);)
