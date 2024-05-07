@@ -16,7 +16,7 @@ OPT DEPENDS ON MAX and MIN values
 9) BACKTRACKING ==> O(n * n-1 * n-2 * .... 1) ==> O(n!)
 10) BnB ==> O(n * t) ==> O(n * n) ==> n^2
 /****************************************************************************/
-A.K.A P == APPROXIMATION OF NP
+A.K.A P == APPROXIMATION OF NP (MIN OBT)
 
 **CONSTRUCTION 
 F = { x : x ε R}
@@ -24,7 +24,7 @@ c(S) == OPT == min{ c(T) : T ε F}
 c(S) <= δ * OPT
 
 /****************************************************************************/
-PTAS (POLYNOMIAL TIME APPROXIMATION SCHEME)
+PTAS (POLYNOMIAL TIME APPROXIMATION SCHEME) ==> MAX OBT
 Here, δ = 1 + t, 0 <= n, t <= INFINITY
 We focus on worst case scenario : O(n) depends on t 
 **FULLY PTAS ==> δ ~= t ~= n ==> δ ~= n
@@ -34,5 +34,7 @@ FULLY PTAS --> |-----> KNAPSACK
                |-----> COVER -->> |---->> VERTEX
                |-----> TSP        |---->> SET
                |-----> BACKTRACKING and BnB
+
+**FULLY PTAS ANALYSIS OF KNAPSACK 
 /****************************************************************************/
 //THE END ;);)
