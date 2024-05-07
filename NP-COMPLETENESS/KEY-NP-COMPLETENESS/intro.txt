@@ -46,6 +46,7 @@ b) Lemma3 : CLIQUE is in NP
             G(V) = { V(n,e) : n != e }
             P ~= V(K) ~= V(n,e)
             NP ~= V(n,e)
+            P is in NP, Hence proved! :) :)
 
 4) *SATURATION
 a) Lemma4 : CNF-SATD. IS IN NP (POS-SATD) or (+)-SATD.
