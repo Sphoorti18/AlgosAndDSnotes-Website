@@ -1,1 +1,13 @@
+GLOSSARY
+R = Real Numbers
+OPT = OPTIMIZATION
+S ε F
+/****************************************************************************/
+A.K.A P == APPROXIMATION OF NP
 
+**CONSTRUCTION 
+F = { x : x ε R}
+c(S) == OPT == min{ c(T) : T ε F}
+
+/****************************************************************************/
+//THE END ;);)
