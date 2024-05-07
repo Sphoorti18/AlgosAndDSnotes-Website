@@ -42,7 +42,8 @@ b) Lemma3 : SET is in NP
             P ~= NP
             P is in NP, Hence proved!
 b) Lemma3 : CLIQUE is in NP
-   Proof3 : Clique = { : }
+   Proof3 : Clique ==> G(Vertices) = { Vertices(nodes,edges) : nodes != edges }
+            G(V) = { V(n,e) : n != e }
 
 4) *SATURATION
 a) Lemma4 : CNF-SATD. IS IN NP (POS-SATD) or (+)-SATD.
