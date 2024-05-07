@@ -56,6 +56,7 @@ COMPARING KNAPSACK and TSP from BnB
 They are closely related! 
 BACKTRACKING ==> O(n^N) 
 BnB ==> O(n^N)  ==> {O(1) or O(n)} 
-
+δ <= max{ O(1) or O(n) , O( n^N ) } ==> δ <= max{O(1) or O(n) and O(n^N)} 
+USING DISTRIBUTION LAWS from BOOLEAN ALGEBRA
 /****************************************************************************/
 //THE END ;);)
