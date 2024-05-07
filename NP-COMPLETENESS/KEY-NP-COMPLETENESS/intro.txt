@@ -24,8 +24,16 @@ a) Lemma3 : VERTEX is in NP
    Proof3 : VertexCover = { Graph(Nodes, Edges) : 0 <= Nodes, Edges <= (+ Infinity) }
             ==> G(N,E) : 0 <= k <= N ~= NP
             P ~= 0 <= k <= 1
-           COMPARING P and NP
+           COMPARING P and NP AND COMBINE THEM
+           P ~= 0 <= k <= 1 <= N ~= NP
+           P ~= 0 <= k <= 1 ~= NP
            Therefore, VertexCover is in NP
+   Lemma3.1 : VertexCover == G representing a computer network where 
+              V (vertices) == > routers and E (edges) == > physical connections.
+              We wish to upgrade V in G with special new, but expensive, 
+              routers. ∃ (There Exists) k new routers : ∀ (for every) network
+   Proof3.1 :  Use Lemma3.1 to prove it :) :) 
+
 b) Lemma3 : SET is in NP
    Proof3 : SetCover = { : }
 
