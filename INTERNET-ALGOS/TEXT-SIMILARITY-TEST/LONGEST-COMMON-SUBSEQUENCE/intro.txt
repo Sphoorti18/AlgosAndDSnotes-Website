@@ -24,15 +24,4 @@ String X has n possibles for subsequences and also subsequences that are not in 
 Inference : O(2^n)*O(m) = O(2^n*m) using BRUTE FORCE METHOD
 /********************************************************************************************************/
 
-/********************************************************************************************************/
-*LCS USING DYNAMIC PROGRAMING
-It is where you choose longest common subsequence and check whether it's there in Y or not (in X)!
-Let X of size n and Y of size m has X[i:n] and Y[j:m]
-CASE_1 :
-CASE_2 :
-
-Algo LCS-USING-DP{
-
-} //EOF LCS-USING-DP
-/********************************************************************************************************/
 THE END ;);)
