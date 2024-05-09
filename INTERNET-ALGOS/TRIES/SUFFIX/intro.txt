@@ -7,7 +7,7 @@ n = 5 , t = 4
 S[n] = | m | i | n | i | m | i | z | e |
 Choose the point of view ∀ x[j] to find the suffix
 In other words, Find the suffix relative to the perspective ∀ x[j]
-
+If you see redundancy then try strict prioritization.
 }//EOF SUFFIX
 /*************************************************************************************************************/
 THE END ;);)
