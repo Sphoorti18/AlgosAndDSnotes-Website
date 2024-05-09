@@ -4,7 +4,10 @@ It is where you choose longest common subsequence and check whether it's there i
 Let X of size n and Y of size m has X[0:i] and Y[0:j] 
 L[i,j] = subsequence in both X and Y
 CASE_1 : X[i] == Y[j]
+         X[0], X[1] ... X[i] and Y[0], Y[1] ... Y[j] | X[i] and Y[j] = c
+         L[i,j] = L[i-1,j-1] + 1 
 CASE_2 : X[i] != Y[j]
+         L[i,j] = max{L[i-1,j], L[i,j-1]}
 
 Algo LCS-USING-DP{
 
