@@ -2,7 +2,7 @@
 FULL form ==> Kunth-Morris-Pratt
 Algo KMP(){
 //INPUT ==> T[0:n] and P[0:m]
-FAILURE FUNCTION
+FAILURE FUNCTION USING STACK DS
 j     0  1  2  3  4
 P[i]  a  b  c  a  b
 F[j]  0  0  0  1  1
