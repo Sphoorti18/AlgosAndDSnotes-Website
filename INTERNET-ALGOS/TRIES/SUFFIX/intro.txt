@@ -1,1 +1,13 @@
+/*************************************************************************************************************/
+Algo SUFFIX(){
+//INPUT : S ={S[i]: 0 <= i <= n, n ∈ size of S} ==> 
+          x = { x[j] : 0 <= j <= t, t ∈ size of sub-array}
+//OUTPUT : 
+n = 5 , t = 4
+S[n] = | m | i | n | i | m | i | z | e |
+Choose the point of view ∀ x[j] to find the suffix
+In other words, Find the suffix relative to the perspective ∀ x[j]
 
+}//EOF SUFFIX
+/*************************************************************************************************************/
+THE END ;);)
