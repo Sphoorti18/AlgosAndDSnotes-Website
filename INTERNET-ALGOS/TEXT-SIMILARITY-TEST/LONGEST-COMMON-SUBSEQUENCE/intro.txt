@@ -1,10 +1,15 @@
 **GLOSSARY
 /********************************************************************************************************/
-Algo LCS{
+**BIG PICTURE
+
 //INPUT = String T has length n and subsequences like => 
 T = {Y[x1], Y[x2], ... Y[n] | (x_{i}) lies 0 <= i <= n} 
 //Side note : It's different from substrings because the list of characters derived from T isn't same! 
-//OUTPUT =
+
+//OUTPUT
+/********************************************************************************************************/
+Algo LCS{
+
 }//EOF LCS
 /********************************************************************************************************/
 THE END ;);)
