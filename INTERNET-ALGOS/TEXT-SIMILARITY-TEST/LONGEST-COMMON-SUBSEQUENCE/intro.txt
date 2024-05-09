@@ -4,15 +4,14 @@ Discrete mathematics Domain
 2) SET THEORY
 /********************************************************************************************************/
 **BIG PICTURE
-
+Algo LCS{
 T = {Y[x1], Y[x2], ... Y[n] | (x_{i}) lies 0 <= i <= n} 
 //Side note : It's different from substrings because the list of characters derived from T isn't same! 
 
 //INPUT = {String X has size n} and {String Y has size m}
 //OUTPUT = Subsequence of {String X and String Y}
-/********************************************************************************************************/
-Algo LCS{
 
 }//EOF LCS
+
 /********************************************************************************************************/
 THE END ;);)
