@@ -1,4 +1,6 @@
-**GLOSSARY
+**PREREQUSITES from Paul's online math notes
+1) BOOLEAN ALGEBRA 
+2) SET THEORY
 /********************************************************************************************************/
 **BIG PICTURE
 
@@ -6,7 +8,7 @@ T = {Y[x1], Y[x2], ... Y[n] | (x_{i}) lies 0 <= i <= n}
 //Side note : It's different from substrings because the list of characters derived from T isn't same! 
 
 //INPUT = {String X has size n} and {String Y has size m}
-//OUTPUT
+//OUTPUT = Subsequence of {String X and String Y}
 /********************************************************************************************************/
 Algo LCS{
 
