@@ -1,3 +1,6 @@
+**GLOSSARY 
+1) ∀ = For all
+/********************************************************************************************************/
 **PREREQUSITES from Paul's online math notes
 Discrete mathematics Domain
 1) BOOLEAN ALGEBRA 
@@ -13,7 +16,12 @@ T = {Y[x1], Y[x2], ... Y[n] | (x_{i}) lies 0 <= i <= n}
 //OUTPUT = Subsequence of {String X and String Y}
 
 }//EOF LCS
-Time Complexity = > String X has 
+//----------------------------------------------------------------------------------------------------------
+//Time Complexity :
+
+String X has n possibles for subsequences and also subsequences that are not in X which Y 
+(Complement of X) => 2^n => ∀ subsequences in X, it will take O(m) to check whether it's there in Y or not!
+Inference : O(2^n)*O(m) = O(2^n*m) using BRUTE FORCE METHOD
 /********************************************************************************************************/
 
 /********************************************************************************************************/
