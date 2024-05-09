@@ -26,6 +26,6 @@ Inference : O(2^n)*O(m) = O(2^n*m) using BRUTE FORCE METHOD
 
 /********************************************************************************************************/
 *LCS USING DYNAMIC PROGRAMING
-LCS USING DP is where you choose one subsequence (provided by the user) and check whether it's there in Y or not!
+It is where you choose longest common subsequence and check whether it's there in Y or not (in X)!
 /********************************************************************************************************/
 THE END ;);)
