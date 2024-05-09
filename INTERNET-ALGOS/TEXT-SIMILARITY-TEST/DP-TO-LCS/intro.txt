@@ -1,9 +1,9 @@
 /********************************************************************************************************/
 *LCS USING DYNAMIC PROGRAMING
 It is where you choose longest common subsequence and check whether it's there in Y or not (in X)!
-Let X of size n and Y of size m has X[i:n] and Y[j:m]
-CASE_1 :
-CASE_2 :
+Let X of size n and Y of size m has X[0:i] and Y[0:j] 
+CASE_1 : X[i] == Y[j]
+CASE_2 : X[i] != Y[j]
 
 Algo LCS-USING-DP{
 
