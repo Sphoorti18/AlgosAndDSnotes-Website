@@ -1,4 +1,5 @@
 **PREREQUSITES from Paul's online math notes
+Discrete mathematics Domain
 1) BOOLEAN ALGEBRA 
 2) SET THEORY
 /********************************************************************************************************/
