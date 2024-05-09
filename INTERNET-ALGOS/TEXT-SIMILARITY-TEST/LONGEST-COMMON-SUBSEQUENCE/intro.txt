@@ -3,7 +3,7 @@ Discrete mathematics Domain
 1) BOOLEAN ALGEBRA 
 2) SET THEORY
 /********************************************************************************************************/
-**BIG PICTURE
+**BIG PICTURE of LCS using Brute Force
 Algo LCS{
 T = {Y[x1], Y[x2], ... Y[n] | (x_{i}) lies 0 <= i <= n} 
 //Side note : It's different from substrings because the list of characters derived from T isn't same! 
@@ -12,6 +12,11 @@ T = {Y[x1], Y[x2], ... Y[n] | (x_{i}) lies 0 <= i <= n}
 //OUTPUT = Subsequence of {String X and String Y}
 
 }//EOF LCS
+Time Complexity = > 
+/********************************************************************************************************/
+
+/********************************************************************************************************/
+*LCS USING DYNAMIC PROGRAMING
 
 /********************************************************************************************************/
 THE END ;);)
