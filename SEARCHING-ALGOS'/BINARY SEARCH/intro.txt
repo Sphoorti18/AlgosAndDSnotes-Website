@@ -1,5 +1,4 @@
-//CONDENSING LINEAR SEARCH IN RECURSIVE STYLE 
-
+Recursive Binary Search!
 /****************************************************************************************/
 Algo binary(){
 int n,i; ==> # of elements in an array two[100][100] ==> 0 <= n, i <= (+ Infinity)
